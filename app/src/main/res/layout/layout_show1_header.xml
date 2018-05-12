@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:drawableLeft="@mipmap/show_icon"
+        android:drawablePadding="@dimen/dimen_4dp"
+        android:gravity="center"
+        android:text="直播专区"
+        android:textColor="@color/colorGrey"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1px"
+        android:background="@drawable/line" />
+
+</LinearLayout>

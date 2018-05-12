@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/me_top_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/photo"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@mipmap/ic_lunch" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/photo"
+                android:layout_marginTop="@dimen/dimen_6dp"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dimen_8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_weight="1"
+                android:text="VIP到期时间"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_12sp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.zss.library.widget.CommonTextWidget
+            android:id="@+id/tWidget1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:left_image="@mipmap/member_icon"
+            app:left_text="开通VIP会员"
+            app:right_image="@mipmap/back_right_icon" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1px"
+            android:background="@color/line" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.zss.library.widget.CommonTextWidget
+                android:id="@+id/tWidget2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:left_image="@mipmap/money_icon"
+                app:left_text="会员续费"
+                app:right_image="@mipmap/back_right_icon" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_1px"
+                android:background="@color/line" />
+        </LinearLayout>
+
+
+        <com.zss.library.widget.CommonTextWidget
+            android:id="@+id/tWidget3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:left_image="@mipmap/service_icon"
+            app:left_text="联系客服"
+            app:right_image="@mipmap/back_right_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:background="@color/white">
+
+        <com.zss.library.widget.CommonTextWidget
+            android:id="@+id/tWidget4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            app:left_image="@mipmap/modify_pwd"
+            app:left_text="修改密码"
+            app:right_image="@mipmap/back_right_icon" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:background="@drawable/rect_corner_yellow">
+
+        <TextView
+            android:id="@+id/login_out"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_14sp" />
+    </LinearLayout>
+
+</LinearLayout>
