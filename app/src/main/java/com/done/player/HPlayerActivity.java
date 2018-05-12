@@ -46,7 +46,6 @@ public class HPlayerActivity extends AppCompatActivity {
     private PowerManager.WakeLock wakeLock;
     View rootView;
 
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
