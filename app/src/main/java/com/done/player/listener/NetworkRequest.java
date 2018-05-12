@@ -13,5 +13,4 @@ public interface NetworkRequest {
 
     void getHeartRooms(RequestHeartRoomsListener listener);
 
-
 }
