@@ -1,4 +1,4 @@
-# [jjdxm_ijkplayer][project] #
+# [aishang_box][project] #
 
 ### Copyright notice ###
 
@@ -12,7 +12,7 @@
 
 项目中如有不同程度的参考借鉴前辈们的文章、项目会在下面注明出处的，纯属为了个人以后开发工作或者文档能力的方便。如有侵犯到您的合法权益，对您造成了困惑，请联系协商解决，望多多谅解哈！若您也有共同的兴趣交流技术上的问题加入交流群QQ： 548545202
 
-感谢作者[tcking][author]、[Bilibili][author1]，本项目借鉴了[GiraffePlayer][url]项目，项目一开始的灵感来源于[GiraffePlayer][url]项目，后期做纯粹做了视频播放器的界面的定制，基于[ijkplayer][url1]项目进行的播放器界面UI封装。
+感谢作者[tcking][author]、[Bilibili][author1] [ijkplayer][author]，本项目借鉴了[GiraffePlayer][url] [ijkplayer][url1]项目，项目一开始的灵感来源于[GiraffePlayer][url]项目，后期做纯粹做了视频播放器的界面的定制，基于[ijkplayer][url1]项目进行的播放器界面UI封装。
 
 ## Introduction ##
 
