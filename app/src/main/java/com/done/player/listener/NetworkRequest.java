@@ -12,4 +12,6 @@ public interface NetworkRequest {
     void getAllSubChannels(RequestAllSubChannelsListener listener);
 
     void getHeartRooms(RequestHeartRoomsListener listener);
+
+
 }
